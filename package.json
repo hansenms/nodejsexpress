@@ -8,9 +8,12 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-zip": "^4.0.0"
+    "gulp-zip": "^4.0.0",
+    "minimist": "^1.2.0"
   },
   "author": "",
   "license": "ISC"
