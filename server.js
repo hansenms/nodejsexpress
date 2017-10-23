@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res) {
-    res.write('This is a journey into sound.');
+    res.write('<h1>Demo Application</h1>');
+    res.write('The simplest possible NodeJS express application');
     res.end();
 });
 
